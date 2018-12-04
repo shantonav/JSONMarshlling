@@ -1,0 +1,68 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Header>
+        <TrustedSourceAuthenticationHeader xmlns="http://globalcollect.com/webcollect/authentication">
+            <RemoteIP>
+                <IPv4>127.0.0.1</IPv4>
+            </RemoteIP>
+            <Source>API</Source>
+        </TrustedSourceAuthenticationHeader>
+    </env:Header>
+    <env:Body>
+        <PaymentRequest xmlns="http://globalcollect.com/webcollect/payment" mapType="java.util.HashMap">
+            <mapEntries xmlns="http://globalcollect.com/webcollect/payment">
+                <key xmlns="http://globalcollect.com/webcollect/payment">ACTION
+                </key>
+                <value xmlns="http://globalcollect.com/webcollect/payment">DO_BINLOOKUP</value>
+            </mapEntries>
+            <mapEntries xmlns="http://globalcollect.com/webcollect/payment">
+                <key xmlns="http://globalcollect.com/webcollect/payment">META</key>
+                <Map xmlns="http://globalcollect.com/webcollect/payment">
+                    <MapType xmlns="http://globalcollect.com/webcollect/payment">java.util.HashMap
+                    </MapType>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">MERCHANTID</key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">1701
+                        </value>
+                    </Entries>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">VERSION</key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">2.1
+                        </value>
+                    </Entries>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">IPADDRESS
+                        </key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">127.0.0.1</value>
+                    </Entries>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">REQUESTREMOTEADDRESS
+                        </key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">127.0.0.1</value>
+                    </Entries>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">REQUESTSOURCE</key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">API</value>
+                    </Entries>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">REQUESTTYPE</key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">JSON</value>
+                    </Entries>
+                </Map>
+            </mapEntries>
+            <mapEntries xmlns="http://globalcollect.com/webcollect/payment">
+                <key xmlns="http://globalcollect.com/webcollect/payment">GENERAL</key>
+                <Map xmlns="http://globalcollect.com/webcollect/payment">
+                    <MapType xmlns="http://globalcollect.com/webcollect/payment">java.util.HashMap</MapType>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">BIN</key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">523962</value>
+                    </Entries>
+                    <Entries xmlns="http://globalcollect.com/webcollect/payment">
+                        <key xmlns="http://globalcollect.com/webcollect/payment">SHOWALL</key>
+                        <value xmlns="http://globalcollect.com/webcollect/payment">1</value>
+                    </Entries>
+                </Map>
+            </mapEntries>
+        </PaymentRequest>
+    </env:Body>
+</env:Envelope>

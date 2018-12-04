@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="740.0526041666667" y="0.0">nl.isaac.globalcollect.fei.connect.domain.api.PaymentMethodSpecificInput</node>
+    <node x="152.16666666666674" y="261.0">org.custom.jackson.json.NonJaxbBean</node>
+    <node x="411.5" y="87.0">com.fasterxml.jackson.databind.ObjectMapper</node>
+    <node x="191.50000000000003" y="174.0">org.custom.jackson.json.GenericTypeDeserializer</node>
+    <node x="826.5" y="87.0">nl.isaac.globalcollect.fei.connect.domain.api.payment.CardPaymentMethodSpecificInput</node>
+    <node x="590.5" y="87.0">nl.isaac.globalcollect.fei.connect.domain.api.payment.CreatePaymentRequest</node>
+    <node x="21.5" y="87.0">org.custom.jackson.json.SpecificTypeOne</node>
+    <node x="43.302604166666754" y="0.0">org.custom.jackson.json.GenericType</node>
+    <node x="215.50000000000003" y="87.0">org.custom.jackson.json.SpecificTypeTwo</node>
+    <node x="601.5" y="174.0">org.custom.jackson.json.PaymentMethodSpecificDeserializer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.custom.jackson.json.SpecificTypeTwo" target="org.custom.jackson.json.GenericType">
+      <point x="0.0" y="-18.5" />
+      <point x="303.0" y="67.0" />
+      <point x="144.80260416666675" y="67.0" />
+      <point x="29.0" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.GenericTypeDeserializer" target="org.custom.jackson.json.SpecificTypeTwo">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.SpecificTypeOne" target="org.custom.jackson.json.GenericType">
+      <point x="0.0" y="-18.5" />
+      <point x="108.5" y="67.0" />
+      <point x="115.80260416666675" y="67.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.PaymentMethodSpecificDeserializer" target="nl.isaac.globalcollect.fei.connect.domain.api.payment.CreatePaymentRequest">
+      <point x="-60.400000000000006" y="-18.5" />
+      <point x="692.1" y="154.0" />
+      <point x="644.5" y="154.0" />
+      <point x="-54.0" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.GenericTypeDeserializer" target="org.custom.jackson.json.SpecificTypeOne">
+      <point x="-89.19999999999996" y="-18.5" />
+      <point x="213.80000000000007" y="154.0" />
+      <point x="65.0" y="154.0" />
+      <point x="-43.5" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.PaymentMethodSpecificDeserializer" target="com.fasterxml.jackson.databind.ObjectMapper">
+      <point x="-120.80000000000001" y="-18.5" />
+      <point x="631.7" y="154.0" />
+      <point x="530.75" y="154.0" />
+      <point x="39.75" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.GenericTypeDeserializer" target="com.fasterxml.jackson.databind.ObjectMapper">
+      <point x="89.19999999999999" y="-18.5" />
+      <point x="392.20000000000005" y="154.0" />
+      <point x="451.25" y="154.0" />
+      <point x="-39.75" y="18.5" />
+    </edge>
+    <edge source="nl.isaac.globalcollect.fei.connect.domain.api.payment.CreatePaymentRequest" target="nl.isaac.globalcollect.fei.connect.domain.api.PaymentMethodSpecificInput">
+      <point x="-54.0" y="-18.5" />
+      <point x="644.5" y="57.0" />
+      <point x="772.3026041666667" y="57.0" />
+      <point x="-96.75" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.NonJaxbBean" target="org.custom.jackson.json.GenericType">
+      <point x="-61.19999999999999" y="-18.5" />
+      <point x="167.46666666666675" y="241.0" />
+      <point x="0.0" y="241.0" />
+      <point x="0.0" y="57.0" />
+      <point x="57.802604166666754" y="57.0" />
+      <point x="-58.0" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.GenericTypeDeserializer" target="org.custom.jackson.json.NonJaxbBean">
+      <point x="0.0" y="18.5" />
+      <point x="303.0" y="231.0" />
+      <point x="259.26666666666677" y="231.0" />
+      <point x="30.600000000000023" y="-18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.GenericTypeDeserializer" target="org.custom.jackson.json.GenericType">
+      <point x="44.60000000000002" y="-18.5" />
+      <point x="347.6" y="144.0" />
+      <point x="401.0" y="144.0" />
+      <point x="401.0" y="57.0" />
+      <point x="173.80260416666675" y="57.0" />
+      <point x="58.0" y="18.5" />
+    </edge>
+    <edge source="nl.isaac.globalcollect.fei.connect.domain.api.payment.CardPaymentMethodSpecificInput" target="nl.isaac.globalcollect.fei.connect.domain.api.PaymentMethodSpecificInput">
+      <point x="0.0" y="-18.5" />
+      <point x="971.0" y="67.0" />
+      <point x="901.3026041666667" y="67.0" />
+      <point x="32.25" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.NonJaxbBean" target="org.custom.jackson.json.GenericTypeDeserializer">
+      <point x="0.0" y="-18.5" />
+      <point x="-74.33333333333331" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.PaymentMethodSpecificDeserializer" target="nl.isaac.globalcollect.fei.connect.domain.api.PaymentMethodSpecificInput">
+      <point x="120.80000000000001" y="-18.5" />
+      <point x="873.3" y="154.0" />
+      <point x="1126.0" y="154.0" />
+      <point x="1126.0" y="57.0" />
+      <point x="965.8026041666667" y="57.0" />
+      <point x="96.74999999999994" y="18.5" />
+    </edge>
+    <edge source="org.custom.jackson.json.PaymentMethodSpecificDeserializer" target="nl.isaac.globalcollect.fei.connect.domain.api.payment.CardPaymentMethodSpecificInput">
+      <point x="60.39999999999998" y="-18.5" />
+      <point x="812.9" y="144.0" />
+      <point x="971.0" y="144.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="223.5" y="119.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

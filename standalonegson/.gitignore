@@ -1,0 +1,38 @@
+target/
+application/config
+application/data/tomcat
+application/logs
+application/work
+application/tmp
+bin/
+
+#Intellij Idea files
+.idea/
+*.iml
+*.log
+
+#Eclipse files
+.project
+.settings/
+.classpath
+
+# Netbeans stuff
+nb-configuration.xml
+**/nb-configuration.xml
+**/nbactions.xml
+
+# vim
+*.swp
+
+#Local Modifications
+**/serviceprovider-switch.properties
+**/paymentengine.properties
+**/webhooksadapter.properties
+**/paymentengine-ecrs.properties
+**/payment-reference-client.properties
+**/log4j2.xml
+**/GeoDirectoryAPI.properties
+**/globalcollect.properties
+**/web.xml
+**/main/resources/ehcache.xml
+application/local/config/
